@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Spartan;
+    src: url("../fonts/LeagueSpartan-VariableFont_wght.ttf");
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --grey500: hsl(0, 0%, 63%);
+    --grey800: hsl(0, 0%, 27%);
+    --black: hsl(0, 0%, 0%);
+}
+
+
+* {
+    color: var(--grey500);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Spartan;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    transition: all .2s;
+}
