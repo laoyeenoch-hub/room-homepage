@@ -1,0 +1,35 @@
+nav {
+    background-color: transparent;
+    display: inline-flexbox;
+    /* flex-direction: row-reverse; */
+    justify-content: flex-start !important;
+    transform: translate(0);
+}
+
+nav label.menu_control {
+    display: none;
+}
+
+nav ul * {
+    color: var(--white) !important;
+}
+
+nav ul li a {
+    height: 2rem;
+    border-color: transparent;
+}
+
+nav ul li a:hover {
+    border-color: var(--white);
+}
+
+div.cover {
+    display: none !important;
+}
+
+nav div.logo {
+    background-color: green;
+    width: fit-content;
+    display: inline;
+    position: static !important;
+}
